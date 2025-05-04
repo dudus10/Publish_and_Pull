@@ -19,3 +19,4 @@ ENV SQS_QUEUE_URL=
 ENV PYTHONUNBUFFERED=1
 
 CMD [ "python", "sqs_publisher.py" ]
+
