@@ -10,8 +10,6 @@ RUN pip install pytest
 
 COPY . .
 
-CMD ls
-
 EXPOSE 15000
 
 ENV AWS_ACCESS_KEY=
