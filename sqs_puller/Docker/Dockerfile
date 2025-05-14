@@ -10,8 +10,6 @@ RUN pip install pytest
 
 COPY . .
 
-CMD ls
-
 ENV AWS_ACCESS_KEY=
 ENV AWS_SECRET_KEY=
 ENV AWS_REGION=
