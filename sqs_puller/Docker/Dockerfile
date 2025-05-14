@@ -20,4 +20,3 @@ ENV WAIT_TIME_SECONDS=10
 ENV PYTHONUNBUFFERED=1
 
 CMD [ "python", "sqs_puller.py" ]
-
